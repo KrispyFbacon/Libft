@@ -1,1 +1,3 @@
 # Libft
+// TODO Do README
+// TODO briefs EVERYWHERE

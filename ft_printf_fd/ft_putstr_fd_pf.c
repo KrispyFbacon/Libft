@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd_pf.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 16:53:41 by frbranda          #+#    #+#             */
-/*   Updated: 2025/05/27 16:53:43 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:37:26 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,15 @@ void	ft_printstr_fd( char *str, int fd)
 	}
 }
 
+#include "ft_printf_fd.h"
+
+/**
+ * @brief Writes a string to the given file descriptor.
+ * 
+ * @param str The string to write.
+ * @param fd The file descriptor to write to.
+ * @return The number of characters written.
+ */
 int	ft_putstr_fd_pf(char *str, int fd)
 {
 	int	i;

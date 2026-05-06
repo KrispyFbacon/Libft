@@ -45,6 +45,13 @@ static void	ft_translate(char *str, long long n, long long len)
 	return ;
 }
 
+
+/**
+ * @brief Converts a long long to a string.
+ * 
+ * @param n The long long to be converted.
+ * @return The string representing the long long. NULL if the allocation fails.
+ */
 char	*ft_itol(long long n)
 {
 	long long		len;

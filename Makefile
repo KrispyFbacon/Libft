@@ -6,7 +6,7 @@
 #    By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 11:27:12 by frbranda          #+#    #+#              #
-#    Updated: 2026/04/27 18:14:19 by frbranda         ###   ########.fr        #
+#    Updated: 2026/05/06 15:45:15 by frbranda         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,7 +36,6 @@ SOURCES = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c \
 			ft_strlcpy.c ft_strlen.c ft_strncmp.c ft_strnstr.c \
 			ft_strrchr.c ft_strtrim.c ft_substr.c ft_tolower.c \
 			ft_toupper.c ft_striteri.c ft_strmapi.c ft_split.c \
-			ft_putnbr_base.c ft_putnbr_base_p.c \
 			ft_isupper.c ft_islower.c ft_isnum.c ft_isspace.c \
 			ft_has_whitespace.c ft_itol.c ft_atol.c ft_atoll.c \
 			ft_realloc.c ft_matrix_free.c ft_free.c ft_arrlen.c \
@@ -53,6 +52,8 @@ SOURCES += ft_printf/ft_printf.c
 SOURCES += ft_printf/ft_putchar_pf.c 
 SOURCES += ft_printf/ft_putnbr_pf.c
 SOURCES += ft_printf/ft_putstr_pf.c 
+SOURCES += ft_putnbr_base.c 
+SOURCES += ft_putnbr_base_p.c 
 
 # Printf FD
 SOURCES +=	ft_printf_fd/ft_printf_fd.c

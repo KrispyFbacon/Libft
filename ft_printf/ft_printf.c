@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 15:52:55 by frbranda          #+#    #+#             */
-/*   Updated: 2024/07/25 13:16:25 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:37:38 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,14 @@ static int	printf_format(va_list args, char format)
 	return (count);
 }
 
+/**
+ * @brief Produces output according to a format.
+ * 
+ * @param format The format string.
+ * @param ... The arguments to be printed.
+ * @return The number of characters printed (excluding the null byte used to
+ * end output to strings).
+ */
 int	ft_printf(const char *format, ...)
 {
 	va_list	args;

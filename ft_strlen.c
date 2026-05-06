@@ -3,15 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 11:37:34 by frbranda          #+#    #+#             */
-/*   Updated: 2024/04/28 11:30:48 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:07:08 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Calculates the length of the string s, excluding the terminating
+ * null byte ('\0').
+ * 
+ * @param s The string whose length is to be found.
+ * @return The number of bytes in the string s.
+ */
 int	ft_strlen(const char *s)
 {
 	int	i;

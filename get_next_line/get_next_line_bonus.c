@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 11:55:51 by frbranda          #+#    #+#             */
-/*   Updated: 2024/06/06 13:12:33 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:37:31 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,14 @@ char	*return_at_end(char *line)
 	return (NULL);
 }
 
+
+/**
+ * @brief Reads a line from a file descriptor.
+ * 
+ * @param fd The file descriptor to read from.
+ * @return The line read. NULL if there is nothing else to read, or an error
+ * occurred.
+ */
 char	*get_next_line(int fd)
 {
 	static char	*buffer[4096];

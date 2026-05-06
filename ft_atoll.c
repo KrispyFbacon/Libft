@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/**
+ * @brief Converts a string to a long long.
+ * 
+ * @param str The string to be converted.
+ * @return long long The converted long long.
+ */
 long long	ft_atoll(char *str)
 {
 	long long	result;

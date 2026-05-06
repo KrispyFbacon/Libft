@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_pf.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/21 14:50:06 by frbranda          #+#    #+#             */
-/*   Updated: 2024/05/22 10:57:04 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:37:09 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,13 @@ static void	ft_write_putnbr(long n, int fd)
 	}
 }
 
+/**
+ * @brief Writes a number to the given file descriptor.
+ * 
+ * @param n The number to write.
+ * @param fd The file descriptor to write to.
+ * @return The number of characters written.
+ */
 int	ft_putnbr_pf(long n, int fd)
 {
 	int		len;

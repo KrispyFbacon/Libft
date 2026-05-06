@@ -3,14 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_pututoa_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 16:53:46 by frbranda          #+#    #+#             */
-/*   Updated: 2025/05/27 16:53:49 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:37:23 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_fd.h"
+
+/**
+ * @brief Writes an unsigned integer to the given file descriptor.
+ * 
+ * @param n The unsigned integer to write.
+ * @param fd The file descriptor to write to.
+ * @return The number of characters written.
+ */
 
 static unsigned int	ft_intlenght_fd(unsigned int n)
 {

@@ -12,6 +12,16 @@
 
 #include "libft.h"
 
+/**
+ * @brief Compares the first n bytes of memory area s1 and memory area s2.
+ * 
+ * @param s1 The first memory area.
+ * @param s2 The second memory area.
+ * @param n The number of bytes to be compared.
+ * @return An integer less than, equal to, or greater than zero if the first n
+ * bytes of s1 is found, respectively, to be less than, to match, or be greater
+ * than the first n bytes of s2.
+ */
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*p_s1;

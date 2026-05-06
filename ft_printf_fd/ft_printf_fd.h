@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf_fd.h                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 16:52:24 by frbranda          #+#    #+#             */
-/*   Updated: 2025/05/27 16:52:27 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:41:45 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h> // write
 # include <stdio.h> // test printf
 # include <stdlib.h> //free malloc
-# include "../libft.h"
+# include "libft.h"
 
 int	ft_printf_fd(int fd, const char *str, ...);
 int	print_args_fd(va_list args, const char specifier, int fd);

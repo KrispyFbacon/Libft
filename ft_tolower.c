@@ -3,15 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 11:38:28 by frbranda          #+#    #+#             */
-/*   Updated: 2024/04/28 16:38:26 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:08:54 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Converts an upper-case letter to the corresponding lower-case letter.
+ * 
+ * @param c The character to be converted.
+ * @return The converted letter, or c if the conversion was not possible.
+ */
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')

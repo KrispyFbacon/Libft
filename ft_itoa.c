@@ -58,6 +58,13 @@ static char	*put_itoa(long n, char *str, int len)
 	return (str);
 }
 
+
+/**
+ * @brief Converts an integer to a string.
+ * 
+ * @param n The integer to be converted.
+ * @return The string representing the integer. NULL if the allocation fails.
+ */
 char	*ft_itoa(int n)
 {
 	long	nr;

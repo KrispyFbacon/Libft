@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 16:52:13 by frbranda          #+#    #+#             */
-/*   Updated: 2025/05/27 16:52:15 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:37:54 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,17 @@ int	print_args_fd(va_list args, const char specifier, int fd)
 	return (0);
 }
 
+
+/**
+ * @brief Produces output according to a format and writes it to the given file
+ * descriptor.
+ * 
+ * @param fd The file descriptor to write to.
+ * @param str The format string.
+ * @param ... The arguments to be printed.
+ * @return The number of characters printed (excluding the null byte used to
+ * end output to strings).
+ */
 int	ft_printf_fd(int fd, const char *str, ...)
 {
 	va_list	args;

@@ -3,15 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 14:19:42 by frbranda          #+#    #+#             */
-/*   Updated: 2024/04/23 17:19:25 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:07:03 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Outputs the string 's' to the given file descriptor.
+ * 
+ * @param s The string to output.
+ * @param fd The file descriptor on which to write.
+ */
 void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;

@@ -12,6 +12,14 @@
 
 #include "libft.h"
 
+/**
+ * @brief Allocates memory for an array of count elements of size bytes each and
+ * returns a pointer to the allocated memory. The memory is set to zero.
+ * 
+ * @param count The number of elements to be allocated.
+ * @param size The size of each element.
+ * @return A pointer to the allocated memory, or NULL if the allocation fails.
+ */
 void	*ft_calloc(size_t count, size_t size)
 {
 	size_t			i;

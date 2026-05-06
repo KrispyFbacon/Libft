@@ -3,15 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 12:06:13 by frbranda          #+#    #+#             */
-/*   Updated: 2024/05/14 15:58:11 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:07:05 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Returns a pointer to a new string which is a duplicate of the string s.
+ * Memory for the new string is obtained with malloc(3), and can be freed with
+ * free(3).
+ * 
+ * @param s The string to be duplicated.
+ * @return A pointer to the duplicated string, or NULL if insufficient memory
+ * was available.
+ */
 char	*ft_strdup(const char *s)
 {
 	char	*p_s;

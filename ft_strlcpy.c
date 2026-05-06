@@ -3,15 +3,25 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 11:43:21 by frbranda          #+#    #+#             */
-/*   Updated: 2024/06/04 16:01:48 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:07:07 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Copies up to size - 1 characters from the NUL-terminated string src to
+ * dst, NUL-terminating the result.
+ * 
+ * @param dest The destination string.
+ * @param src The source string.
+ * @param size The total size of the destination buffer.
+ * @return The total length of the string it tried to create: the length of
+ * src.
+ */
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	size_t	i;

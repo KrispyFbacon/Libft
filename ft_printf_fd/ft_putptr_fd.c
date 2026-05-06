@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putptr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 16:53:35 by frbranda          #+#    #+#             */
-/*   Updated: 2025/05/27 16:53:38 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 15:37:22 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,13 @@ static int	ft_putpointerhex_fd(unsigned long n, int fd)
 	return (result);
 }
 
+/**
+ * @brief Writes a pointer address to the given file descriptor.
+ * 
+ * @param n The pointer to write.
+ * @param fd The file descriptor to write to.
+ * @return The number of characters written.
+ */
 int	ft_putptr_fd(void *n, int fd)
 {
 	int				result;

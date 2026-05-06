@@ -3,15 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frbranda <frbranda@student.42.fr>          +#+  +:+       +#+        */
+/*   By: frbranda <frbranda@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 14:26:10 by frbranda          #+#    #+#             */
-/*   Updated: 2024/04/24 15:24:31 by frbranda         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:06:59 by frbranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Outputs the string 's' to the given file descriptor, followed by a
+ * newline.
+ * 
+ * @param s The string to output.
+ * @param fd The file descriptor on which to write.
+ */
 void	ft_putendl_fd(char *s, int fd)
 {
 	int	i;
